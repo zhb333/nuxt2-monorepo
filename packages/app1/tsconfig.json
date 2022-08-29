@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
+    "allowJs": true,
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "#composables": ["../composables/src/index.ts"],
+      "#helpers": ["../helpers/src/index.ts"]
+    },
+    "types": ["@nuxt/types", "@types/node", "unplugin-vue2-script-setup/types", "modules"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2
+  }
+}

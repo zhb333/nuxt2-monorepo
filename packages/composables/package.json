@@ -1,0 +1,9 @@
+{
+  "name": "composables",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "modules": "workspace:^0.0.0"
+  }
+}
