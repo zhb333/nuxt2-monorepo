@@ -11,7 +11,7 @@
     "app1:dev": "pnpm --filter app1 run dev",
     "app2:dev": "pnpm --filter app2 run dev",
     "lint": "eslint --ext .js,.ts,.vue,.cjs,.mjs --ignore-path .gitignore .",
-    "format": "prettier --write --ignore-unknown --ignore-path .gitignore ."
+    "format": "prettier --write --ignore-unknown --ignore-path .prettierignore ."
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
