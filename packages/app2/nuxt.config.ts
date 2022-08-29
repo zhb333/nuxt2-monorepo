@@ -49,7 +49,9 @@ const config: NuxtConfig = {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['components']
+  },
 
   server: {
     port: 3002

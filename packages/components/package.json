@@ -1,6 +1,8 @@
 {
   "name": "components",
+  "version": "0.0.0",
   "private": true,
+  "main": "src/index.ts",
   "scripts": {
     "typecheck": "vue-tsc --noEmit"
   },

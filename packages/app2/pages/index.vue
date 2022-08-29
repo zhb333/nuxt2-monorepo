@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, useContext } from '@nuxtjs/composition-api'
-import { Hello } from '#components'
+import { Hello } from 'components'
 const { $hello } = useContext()
 const message = ref($hello('hello nuxt app2!'))
 </script>
